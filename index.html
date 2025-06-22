@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- MAIN CARD CONTAINER -->
+    <!-- We use <main> as the semantic HTML tag to indicate this is the primary content of our page -->
+    <!-- The main-container class will hold our entire stats preview card -->
+    <main class="main-container">
+      <!-- IMAGE SECTION -->
+      <!-- This div will display our header image with purple overlay effect -->
+      <!-- We're using CSS background-image instead of <img> tag for more styling control -->
+      <div class="the-img"></div>
+
+      <!-- TEXT CONTENT SECTION -->
+      <!-- This section contains all the text content: heading, description, and statistics -->
+      <div class="typography">
+        <!-- HEADING AND DESCRIPTION -->
+        <!-- This div groups our main heading and paragraph together -->
+        <div class="top-text">
+          <!-- Main heading with highlighted word using <span> for styling -->
+          <h1>
+            Get <span class="highlight">insights</span> that help your business
+            grow.
+          </h1>
+
+          <!-- Description paragraph -->
+          <p>
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+        </div>
+
+        <!-- STATISTICS SECTION -->
+        <!-- We use <ul> (unordered list) because these stats are related items without a specific order -->
+        <!-- Each <li> contains a statistic number and its description -->
+        <ul class="stats">
+          <li>
+            <p class="number">10k+</p>
+            <p class="text">companies</p>
+          </li>
+          <li>
+            <p class="number">314</p>
+            <p class="text">templates</p>
+          </li>
+          <li>
+            <p class="number">12m+</p>
+            <p class="text">queries</p>
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <!-- We use <footer> semantic tag for attribution/credit information -->
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </footer>
+  </body>
+</html>
